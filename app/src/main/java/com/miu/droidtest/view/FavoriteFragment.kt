@@ -6,9 +6,10 @@ import android.view.View
 import com.miu.droidtest.R
 import com.miu.droidtest.databinding.FragmentFavoriteBinding
 import dagger.hilt.android.AndroidEntryPoint
+import javax.inject.Inject
 
 @AndroidEntryPoint
-class FavoriteFragment : Fragment(R.layout.fragment_favorite) {
+class FavoriteFragment @Inject constructor() : Fragment(R.layout.fragment_favorite) {
 
     private lateinit var binding: FragmentFavoriteBinding
 

@@ -6,9 +6,10 @@ import android.view.View
 import com.miu.droidtest.R
 import com.miu.droidtest.databinding.FragmentDataBinding
 import dagger.hilt.android.AndroidEntryPoint
+import javax.inject.Inject
 
 @AndroidEntryPoint
-class DataFragment : Fragment(R.layout.fragment_data) {
+class DataFragment @Inject constructor() : Fragment(R.layout.fragment_data) {
 
     private lateinit var binding:FragmentDataBinding
 
