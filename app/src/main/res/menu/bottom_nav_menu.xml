@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/listFragment"
+        android:icon="@drawable/ic_list"
+        android:title="List" />
+    <item
+        android:id="@+id/favoriteFragment"
+        android:icon="@drawable/ic_favorite"
+        android:title="Favorite" />
+    <item
+        android:id="@+id/dataFragment"
+        android:icon="@drawable/ic_data"
+        android:title="Data" />
+</menu>
