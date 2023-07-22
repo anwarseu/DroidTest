@@ -7,17 +7,17 @@
 
     <fragment
         android:id="@+id/listFragment"
-        android:name="com.example.droidtest.view.ListFragment"
+        android:name="com.miu.droidtest.view.ListFragment"
         android:label="fragment_list"
         tools:layout="@layout/fragment_list" />
     <fragment
         android:id="@+id/favoriteFragment"
-        android:name="com.example.droidtest.view.FavoriteFragment"
+        android:name="com.miu.droidtest.view.FavoriteFragment"
         android:label="fragment_favorite"
         tools:layout="@layout/fragment_favorite" />
     <fragment
         android:id="@+id/dataFragment"
-        android:name="com.example.droidtest.view.DataFragment"
+        android:name="com.miu.droidtest.view.DataFragment"
         android:label="fragment_data"
         tools:layout="@layout/fragment_data" />
 </navigation>

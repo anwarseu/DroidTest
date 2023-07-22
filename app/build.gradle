@@ -6,7 +6,7 @@ plugins {
 }
 
 android {
-    namespace 'com.example.droidtest'
+    namespace 'com.miu.droidtest'
     compileSdk 33
 
     defaultConfig {

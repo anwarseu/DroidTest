@@ -9,7 +9,6 @@ import androidx.room.Query
 
 @Dao
 interface ArtDao {
-
     @Insert(onConflict = OnConflictStrategy.REPLACE)
     suspend fun insertArt(art: Art)
 

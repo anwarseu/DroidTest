@@ -1,11 +1,11 @@
 package com.miu.droidtest.repo
 
 import androidx.lifecycle.LiveData
-import com.example.droidtest.api.RetrofitAPI
-import com.example.droidtest.db.Art
-import com.example.droidtest.db.ArtDao
-import com.example.droidtest.models.ImageResponse
-import com.example.droidtest.utils.Resource
+import com.miu.droidtest.api.RetrofitAPI
+import com.miu.droidtest.db.Art
+import com.miu.droidtest.db.ArtDao
+import com.miu.droidtest.models.ImageResponse
+import com.miu.droidtest.utils.Resource
 import javax.inject.Inject
 
 class ArtRepositoryImpl @Inject constructor(

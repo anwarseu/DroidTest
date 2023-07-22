@@ -3,9 +3,11 @@ package com.miu.droidtest.view
 import android.os.Bundle
 import androidx.fragment.app.Fragment
 import android.view.View
-import com.example.droidtest.R
-import com.example.droidtest.databinding.FragmentDataBinding
+import com.miu.droidtest.R
+import com.miu.droidtest.databinding.FragmentDataBinding
+import dagger.hilt.android.AndroidEntryPoint
 
+@AndroidEntryPoint
 class DataFragment : Fragment(R.layout.fragment_data) {
 
     private lateinit var binding:FragmentDataBinding
