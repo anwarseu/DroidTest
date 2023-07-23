@@ -21,7 +21,7 @@ class DetailsFragment @Inject constructor(
     private val glide : RequestManager
 ) : Fragment(R.layout.fragment_details) {
 
-    private lateinit var viewModel : ArtViewModel
+    lateinit var viewModel : ArtViewModel
     private lateinit var binding: FragmentDetailsBinding
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {

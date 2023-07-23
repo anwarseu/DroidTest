@@ -23,10 +23,10 @@ import javax.inject.Inject
 
 @AndroidEntryPoint
 class GalleryFragment @Inject constructor(
-    private val artGalleryAdapter: ArtGalleryAdapter
+    val artGalleryAdapter: ArtGalleryAdapter
 ): Fragment(R.layout.fragment_gallery) {
 
-    private lateinit var viewModel: ArtViewModel
+    lateinit var viewModel: ArtViewModel
     private lateinit var binding: FragmentGalleryBinding
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
